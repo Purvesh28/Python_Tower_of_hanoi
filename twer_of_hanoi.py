@@ -1,3 +1,4 @@
+#Solved Using recursion
 def tower_of_hanoi(n, source, helper, destination):
     # Base case
     if n == 1:
@@ -17,3 +18,4 @@ def tower_of_hanoi(n, source, helper, destination):
 # ---- Driver Code ----
 n = int(input("Enter number of disks: "))
 tower_of_hanoi(n, "A", "B", "C")
+
